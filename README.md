@@ -34,6 +34,7 @@ Below is the intended steps (order) to run the scripts:
 
    This loops through the newly created csv files and plot the time series (.html files) under folder: timeseries_graphs.
    
+   <img src="https://github.com/chianhenglee/GPS_timeseries_auto_fitting/blob/master/sample_snapshots/sample_ts.png" width="600">
    
 ### 3. auto_fit_velocity.py
 
@@ -41,6 +42,7 @@ Below is the intended steps (order) to run the scripts:
    New plotted time series with fitted velocities are then stored under folder: fitted_timeseries_graphs.
    This script also exported the velocity data as a csv file named: fitted_velocity.csv
    
+   <img src="https://github.com/chianhenglee/GPS_timeseries_auto_fitting/blob/master/sample_snapshots/sample_ts_fit.png" width="600">
    
 ### 4. (Future steps creating velocity fields map.)
 
