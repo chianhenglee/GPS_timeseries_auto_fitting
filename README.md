@@ -1,6 +1,9 @@
 # GPS_timeseries_auto_fitting
 This is a series of python scripts for processing GPS time series data, fitting velocities and plotting using plotly
 
+requirements:
+
+python, plotly, numpy, pandas
 
 The original GPS time series data is stored under time_series_data. Each file is a station (.txt). 
 
