@@ -42,9 +42,15 @@ Below is the intended steps (order) to run the scripts:
 ### 3. auto_fit_velocity.py
 
    This reads the .csv files created in step 1 and fits the velocities.
-   New plotted time series with fitted velocities are then stored under folder: fitted_timeseries_graphs.
-   This script also exported the velocity data as a csv file named: fitted_velocity.csv
+   Just before fitting, the user will be prompted to provide a station as reference station (i.e. that station will be completely stationary in the fitted result). If no desired ref station (i.e. use the time series as is), type in 'None'. The referencing step will be skipped. 
+   New plotted time series with fitted velocities are then stored under folder: fitted_timeseries_graphs_ref_(ref_site_name).
+   This script also exported the velocity data as a csv file named: fitted_velocity_ref_(ref_site_name).csv
    
+   Here is the reference station:
+   <img src="https://github.com/chianhenglee/GPS_timeseries_auto_fitting/blob/master/sample_snapshots/sample_ref_site.png" width="600">
+   
+   
+   Here is an example of a regular station:
    <img src="https://github.com/chianhenglee/GPS_timeseries_auto_fitting/blob/master/sample_snapshots/sample_ts_fit.png" width="600">
    
 ### 4. (Future steps creating velocity fields map.)
