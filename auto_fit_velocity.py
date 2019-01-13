@@ -18,11 +18,14 @@ sitenames = [i[0:-4] for i in filenames]
 
 print('Here is all the stations in the folder:')
 print(sitenames)
-ref_site = input('Desired reference station:')
-ref_site_filename = datafoldername+ref_site+'.csv'
+ref_site = input('Desired reference station ("None" if you want no ref):')
 
+if ref_site!='None':
+	ref_site_filename = datafoldername+ref_site+'.csv'
+	ref_vel = fit_one_site(ref_site_filename)[4]
+else:
+	ref_vel = [0,0,0]  # if given 'None', make ref_vel all 0s so no ref given.
 
-ref_vel = fit_one_site(ref_site_filename)[4]
 #ref_time,ref_Efit,ref_Nfit,ref_Ufit,ref_vel = fit_one_site(ref_site_filename)
 
 
