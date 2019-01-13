@@ -47,10 +47,13 @@ Below is the intended steps (order) to run the scripts:
    This script also exported the velocity data as a csv file named: fitted_velocity_ref_(ref_site_name).csv
    
    Here is the reference station:
+   
    <img src="https://github.com/chianhenglee/GPS_timeseries_auto_fitting/blob/master/sample_snapshots/sample_ref_site.png" width="600">
    
    
+   
    Here is an example of a regular station:
+   
    <img src="https://github.com/chianhenglee/GPS_timeseries_auto_fitting/blob/master/sample_snapshots/sample_ts_fit.png" width="600">
    
 ### 4. (Future steps creating velocity fields map.)
